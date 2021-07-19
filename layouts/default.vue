@@ -3,6 +3,7 @@
     <v-main class="main">
       <NavBar />
       <Introduction />
+      <PersonalInfo />
     </v-main>
   </v-app>
 </template>
