@@ -1,15 +1,20 @@
 <template>
-  <v-app dark>
-    <v-main>
-      <v-app-bar app>
-        Zack Borges
-      </v-app-bar>
-      <v-container>
-        Hello World
-      </v-container>
+  <v-app>
+    <v-main class="main">
+      <NavBar />
+      <PersonalInfo />
     </v-main>
   </v-app>
 </template>
+
+<style>
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap");
+
+main {
+  background-color: #0a192f;
+}
+</style>
 
 <script>
 export default {
