@@ -17,7 +17,7 @@
 h2 {
   margin: 0 10;
   color: #05d9e8;
-  font-family: "Roboto Mono", monospace;
+  font-family: "Roboto Mono", monospace !important;
   font-weight: 400;
   font-size: clamp(var(--fz-sm), 5vw, var(--fz-md));
 }
