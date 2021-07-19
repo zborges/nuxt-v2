@@ -18,8 +18,11 @@
         <br />
         I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
         developer. I have a passion in learning, and while I was in University, I was especially intersted in Human
-        Development and learning about adults and children with special needs. Since High School I have always loved
-        reading Stephen King novels.
+        Development and learning about adults and children with special needs.
+        <br />
+        <br />
+        Currently, I am painting houses for a living, and building projects on the side until I find the right fit for
+        me.
       </p>
     </div>
   </v-container>
@@ -56,6 +59,6 @@ p {
 .my_photo {
   position: relative;
   float: right;
-  padding-bottom: 50px;
+  margin-bottom: 80px;
 }
 </style>
