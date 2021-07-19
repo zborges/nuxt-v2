@@ -1,14 +1,26 @@
 <template>
-  <v-container class="text-md-right mt-16" align="center">
-    <div>
-      <v-divider class="divider"></v-divider>
-      <h2 class="pr-6">About Me</h2>
-      <div class="testimonial">
-        <p class="text-md-right ">
-          Hello! My name is Zack and I enjoy surfing and floating in the ocean long, as well as having my heart rate
-          spike as I watch thriller/ psychological horror movies.
-        </p>
-      </div>
+  <v-container class="text-md-left mt-16" align="center">
+    <v-divider class="divider"></v-divider>
+
+    <h2 class="pr-6">About Me</h2>
+    <v-img
+      alt="my-photo"
+      src="zack.jpeg"
+      max-height="400"
+      max-width="400"
+      class="rounded-lg text-md-right my_photo"
+    ></v-img>
+    <div class="testimonial">
+      <p class="text-md-left">
+        Hello! My name is Zack and I enjoy surfing, floating in the ocean, and having my heart rate spike as I watch
+        thriller/ psychological horror movies.
+        <br />
+        <br />
+        I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
+        developer. I have a passion in learning, and while I was in University, I was especially intersted in Human
+        Development and learning about adults and children with special needs. Since High School I have always loved
+        reading Stephen King novels.
+      </p>
     </div>
   </v-container>
 </template>
@@ -34,7 +46,16 @@ p {
   color: #a8b2d1;
 }
 .testimonial {
-  width: 100%;
+  width: 60%;
   /* float-right */
+  margin-right: auto;
+  padding-right: 80px;
+  font-weight: 400;
+  font-size-adjust: inherit;
+}
+.my_photo {
+  position: relative;
+  float: right;
+  padding-bottom: 50px;
 }
 </style>
