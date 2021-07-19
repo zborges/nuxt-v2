@@ -2,7 +2,7 @@
   <v-app>
     <v-main class="main">
       <NavBar />
-      <PersonalInfo />
+      <Introduction />
     </v-main>
   </v-app>
 </template>

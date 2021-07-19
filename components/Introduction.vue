@@ -1,12 +1,15 @@
 <template>
-  <v-container align="center mx-width-300">
-    <div class="text-center  text-md-right mt-16">
-      <h2 class="pr-6">Hello, my name is</h2>
-      <h1 class="font-weight-400">Zack Borges</h1>
-      <h3>I build websites and web applications.</h3>
-      <p>I'm a software engineer, with experience creating front end and back end web applications.</p>
-    </div>
-  </v-container>
+  <v-lazy>
+    <v-container align="center mx-width-300">
+      <div class="text-center  text-md-right mt-16">
+        <h2 class="pr-6">Hello, my name is</h2>
+        <h1 class="font-weight-400">Zack Borges</h1>
+        <h3>I build websites and web applications.</h3>
+        <p>I'm a software engineer, currently living in Athens, Georgia.</p>
+        <p></p>
+      </div>
+    </v-container>
+  </v-lazy>
 </template>
 
 <style scoped>
