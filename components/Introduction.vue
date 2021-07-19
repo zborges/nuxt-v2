@@ -1,15 +1,16 @@
 <template>
-  <v-lazy>
-    <v-container align="center mx-width-300">
+    <v-container class="mt-16" align="center mx-width-300">
       <div class="text-center  text-md-right mt-16">
-        <h2 class="pr-6">Hello, my name is</h2>
+          <h2 class="pr-6">
+            Hello, my name is
+          </h2>
+        </div>
         <h1 class="font-weight-400">Zack Borges</h1>
         <h3>I build websites and web applications.</h3>
         <p>I'm a software engineer, currently living in Athens, Georgia.</p>
         <p></p>
       </div>
     </v-container>
-  </v-lazy>
 </template>
 
 <style scoped>
@@ -36,3 +37,4 @@ p {
   color: #a8b2d1;
 }
 </style>
+

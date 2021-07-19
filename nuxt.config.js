@@ -1,4 +1,7 @@
 import colors from 'vuetify/es5/util/colors'
+import Vue from 'vue'
+import VueTypedJs from 'vue-typed-js'
+Vue.use(VueTypedJs)
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -23,7 +26,7 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: ['vuesax/dist/vuesax.css', 'boxicons/css/boxicons.min.css'
+  css: [ 'boxicons/css/boxicons.min.css'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

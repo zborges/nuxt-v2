@@ -1,7 +1,6 @@
 <template>
   <v-app>
     <v-main class="main">
-      <NavBar />
       <Introduction />
       <PersonalInfo />
     </v-main>

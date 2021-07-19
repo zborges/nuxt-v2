@@ -1,18 +1,16 @@
 <template>
-  <v-lazy>
-    <v-container class="text-md-right mt-16" align="center">
-      <div>
-        <v-divider class="divider"></v-divider>
-        <h2 class="pr-6">About Me</h2>
-        <div class="testimonial">
-          <p class="text-md-right! ">
-            Hello! My name is Zack and I enjoy surfing and floating in the ocean long, as well as having my heart rate
-            spike as I watch thriller/ psychological horror movies.
-          </p>
-        </div>
+  <v-container class="text-md-right mt-16" align="center">
+    <div>
+      <v-divider class="divider"></v-divider>
+      <h2 class="pr-6">About Me</h2>
+      <div class="testimonial">
+        <p class="text-md-right ">
+          Hello! My name is Zack and I enjoy surfing and floating in the ocean long, as well as having my heart rate
+          spike as I watch thriller/ psychological horror movies.
+        </p>
       </div>
-    </v-container>
-  </v-lazy>
+    </div>
+  </v-container>
 </template>
 
 <style scoped>
@@ -36,7 +34,7 @@ p {
   color: #a8b2d1;
 }
 .testimonial {
-  /* width: 400px; */
+  width: 100%;
   /* float-right */
 }
 </style>
