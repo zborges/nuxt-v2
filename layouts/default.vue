@@ -3,6 +3,7 @@
     <v-main class="main">
       <Introduction />
       <PersonalInfo />
+      <Technologies />
     </v-main>
   </v-app>
 </template>

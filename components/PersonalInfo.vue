@@ -1,5 +1,5 @@
 <template>
-  <v-container class="text-md-left mt-16" align="center">
+  <v-container class="text-md-left mt-5" align="center">
     <v-divider class="divider"></v-divider>
 
     <h2 class="pr-6">About Me</h2>
@@ -12,19 +12,22 @@
     ></v-img>
     <div class="testimonial">
       <p class="text-md-left">
-        Hello! My name is Zack and I enjoy surfing, floating in the ocean, and having my heart rate spike as I watch
-        thriller/ psychological horror movies.
+        Hello! My name is Zack and I enjoy surfing, floating in the ocean, and having my
+        <span style="color:#05d9e8">heart rate spike</span>
+        as I watch thriller/ psychological horror movies.
         <br />
         <br />
         I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
-        developer. I have a passion in learning, and while I was in University, I was especially intersted in Human
-        Development and learning about adults and children with special needs.
+        developer. I have a passion in learning, and while I was in University, I was especially intersted in
+        <span style="color:#05d9e8">Human Development</span>
+        and learning about adults and children with special needs.
         <br />
         <br />
         Currently, I am painting houses for a living, and building projects on the side until I find the right fit for
         me.
       </p>
     </div>
+    <br />
   </v-container>
 </template>
 
@@ -39,12 +42,14 @@
 .container {
   padding-top: 200px;
 }
+
 h2 {
   font-size: clamp(48px, 10vw, 80px);
   /* align-items: center; */
   /* position: relative; */
   color: #e6f1ff;
 }
+
 p {
   color: #a8b2d1;
 }

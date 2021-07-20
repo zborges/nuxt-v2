@@ -1,6 +1,6 @@
 <template>
     <v-container class="mt-16" align="center mx-width-300">
-      <div class="text-center  text-md-right mt-16">
+      <div class="text-center  text-sm-right mt-16">
           <h2 class="pr-6">
             Hello, my name is
           </h2>
