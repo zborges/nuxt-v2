@@ -1,7 +1,8 @@
 <template>
+<v-lazy>
+
   <v-container class="text-md-left mt-5" align="center">
     <v-divider class="divider"></v-divider>
-
     <h2 class="pr-6">Technologies</h2>
 
     <div class="technologies">
@@ -15,6 +16,7 @@
       </ul>
     </div>
   </v-container>
+  </v-lazy>
 </template>
 
 <style scoped>
