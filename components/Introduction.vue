@@ -1,6 +1,6 @@
 <template>
-    <v-container class="mt-16" align="center mx-width-300">
-      <div class="text-center  text-sm-right mt-16">
+    <v-container class="introduction mt-16" align="center mx-width-300">
+      <div class="text-center text-sm-right mt-7">
           <h2 class="pr-6">
             Hello, my name is
           </h2>
@@ -35,6 +35,9 @@ h3 {
 p {
   font-size: var(--fz-xl);
   color: #a8b2d1;
+}
+.introduction {
+  margin-bottom: 100px;
 }
 </style>
 

@@ -1,6 +1,6 @@
 <template>
   <v-lazy>
-    <v-container class="text-md-left mt-5 justify-space-between" align="center">
+    <v-container class="text-md-left mt-5 pt-md-15" align="center">
       <v-divider class="divider"></v-divider>
 
       <h2 class="pr-6">About Me</h2>
@@ -9,7 +9,7 @@
         src="zack.jpeg"
         max-height="400"
         max-width="400"
-        class="rounded-lg text-md-right my_photo"
+        class="rounded-lg float-md-right  my_photo"
       ></v-img>
       <div class="testimonial">
         <p class="text-md-left">
@@ -41,9 +41,9 @@
   /* justify-content: center; */
   /* width: 50%; */
 }
-.container {
-  padding-top: 200px;
-}
+/* .container {
+  padding-top: 220px;
+} */
 
 h2 {
   font-size: clamp(48px, 10vw, 80px);
@@ -64,8 +64,8 @@ p {
   font-size-adjust: inherit;
 }
 .my_photo {
-  position: relative;
-  float: right;
+  text-align: center;
+  /* float: right; */
   margin-bottom: 80px;
 }
 </style>

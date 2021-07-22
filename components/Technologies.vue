@@ -1,6 +1,5 @@
 <template>
 <v-lazy>
-
   <v-container class="text-md-left mt-5" align="center">
     <v-divider class="divider"></v-divider>
     <h2 class="pr-6">Technologies</h2>
@@ -52,7 +51,7 @@ ul {
   list-style-type: disc;
 }
 .container {
-  padding-top: 200px;
+  padding-top: 220px;
 }
 h2 {
   font-size: clamp(48px, 10vw, 80px);
