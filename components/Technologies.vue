@@ -160,7 +160,7 @@ p {
   width: 100%;
 }
 .skill {
-  padding: 0 100px 0 100px;
+  padding: 0 70px 0 70px;
 }
 .skills-div {
   align-content: center !important;
