@@ -5,39 +5,52 @@
       <h2 class="pr-6">Technologies</h2>
       <p class="text-md-left">These are some of the technologies that I have been working with recently:</p>
       <div class="technologies text-center">
-        <v-carousel cycle height="320" hide-delimiter-background show-arrows-on-hover>
+        <v-carousel cycle height="400" hide-delimiter-background show-arrows-on-hover>
           <v-carousel-item>
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
                 <div class="skill">
-                  <v-progress-circular :rotate="-90" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="-90" :size="140" :width="15" :value="value" color="#8892b0">
                     {{ value.JavaScript }}%
                   </v-progress-circular>
                   <h3>JavaScript</h3>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="90" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="90" :size="140" :width="15" :value="value" color="#ccd6f6">
                     {{ value.HTML5 }}%
                   </v-progress-circular>
                   <h3>HTML5</h3>
                 </div>
+
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                    {{ value.RubyOnRails }}%
+                  </v-progress-circular>
+                  <h3>Ruby on Rails</h3>
+                </div>
+              </v-row>
+            </v-sheet>
+          </v-carousel-item>
+          <v-carousel-item>
+            <v-sheet class="sheet">
+              <v-row class="fill-height" align="center" justify="center">
+                <div class="skill">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda  ">
                     {{ value.Vue }}%
                   </v-progress-circular>
                   <h3>Vue</h3>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
                     {{ value.CSS3 }}%
                   </v-progress-circular>
                   <h3>CSS3</h3>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
-                    {{ value.RubyOnRails }}%
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                    {{ value.PostGreSQL }}%
                   </v-progress-circular>
-                  <h3>Ruby on Rails</h3>
+                  <h3>PostGreSQL</h3>
                 </div>
               </v-row>
             </v-sheet>
@@ -47,25 +60,19 @@
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
-                    {{ value.PostGreSQL }}%
-                  </v-progress-circular>
-                  <h3>PostGreSQL</h3>
-                </div>
-                <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
                     {{ value.AWS }}%
                   </v-progress-circular>
                   <h3>AWS</h3>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
                     {{ value.Git }}%
                   </v-progress-circular>
                   <h3>Git</h3>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="100" :width="15" :value="value" color="#8892b0">
+                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
                     {{ value.Express }}%
                   </v-progress-circular>
                   <h3>Express</h3>
@@ -149,11 +156,11 @@ p {
 .sheet {
   color: #e6f1ff;
   height: 100%;
-  background-color: #0a192f;
+  background-color: transparent;
   width: 100%;
 }
 .skill {
-  padding: 0 30px 0 30px;
+  padding: 0 100px 0 100px;
 }
 .skills-div {
   align-content: center !important;
