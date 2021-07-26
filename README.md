@@ -1,3 +1,5 @@
+In the process of getting my new porfolio perfected (maybe one day?). Still in the early stages but feel free to check it out at zackartborges.netlify.app
+
 # nuxt-v2
 
 ## Build Setup
