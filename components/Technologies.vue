@@ -3,30 +3,61 @@
     <v-container class="text-md-left mt-5" align="center">
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6">Technologies</h2>
-      <p class="text-md-left">These are some of the technologies that I have been working with recently:</p>
+      <h4 class="text-md-left">These are some of the technologies that I have been working with recently:</h4>
       <div class="technologies text-center">
-        <v-carousel cycle height="400" hide-delimiter-background show-arrows-on-hover>
+        <v-carousel interval="12000" cycle height="400" hide-delimiter-background show-arrows-on-hover>
           <v-carousel-item>
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
                 <div class="skill">
-                  <v-progress-circular :rotate="-90" :size="140" :width="15" :value="value" color="#8892b0">
-                    {{ value.JavaScript }}%
-                  </v-progress-circular>
-                  <h3>JavaScript</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="-90" :size="140" :width="15" :value="value" color="#8892b0">
+                          {{ value.JavaScript }}%
+                        </v-progress-circular>
+                        <h3>JavaScript</h3>
+                      </span>
+                    </template>
+                    <span>
+                      One of my favorite languages, and one I aspire to master.
+                    </span>
+                  </v-tooltip>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="90" :size="140" :width="15" :value="value" color="#ccd6f6">
-                    {{ value.HTML5 }}%
-                  </v-progress-circular>
-                  <h3>HTML5</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="90" :size="140" :width="15" :value="value" color="#ccd6f6">
+                          {{ value.HTML5 }}%
+                        </v-progress-circular>
+                        <h3>HTML5</h3>
+                      </span>
+                    </template>
+                    <span>
+                      The good ole skeleton of the interwebs.
+                      <br />
+                      Very straightforward and maybe, easy?
+                    </span>
+                  </v-tooltip>
                 </div>
 
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
-                    {{ value.RubyOnRails }}%
-                  </v-progress-circular>
-                  <h3>Ruby on Rails</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                          {{ value.RubyOnRails }}%
+                        </v-progress-circular>
+                        <h3>Ruby (on Rails)</h3>
+                      </span>
+                    </template>
+                    <span>
+                      A simple to use web app framework and another one of my favorites.
+                      <br />
+                      I used RoR to create my first web application, OurPack.
+                    </span>
+                  </v-tooltip>
                 </div>
               </v-row>
             </v-sheet>
@@ -35,22 +66,57 @@
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda  ">
-                    {{ value.Vue }}%
-                  </v-progress-circular>
-                  <h3>Vue</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda  ">
+                          {{ value.Vue }}%
+                        </v-progress-circular>
+                        <h3>Vue</h3>
+                      </span>
+                    </template>
+                    <span>
+                      JavaScript Framework that I use primarily.
+                      <br />
+                      The frontend for my first full stack web application was built using Vue.
+                      <br />
+                      Thoroughly enjoy learning more and more about the framework.
+                    </span>
+                  </v-tooltip>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
-                    {{ value.CSS3 }}%
-                  </v-progress-circular>
-                  <h3>CSS3</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                          {{ value.CSS3 }}%
+                        </v-progress-circular>
+                        <h3>CSS3</h3>
+                      </span>
+                    </template>
+                    <span>
+                      The styling component that is very straightforward.
+                      <br />
+                      Can be a bit frustrating, but the most rewarding.
+                      <br />
+                    </span>
+                  </v-tooltip>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
-                    {{ value.PostGreSQL }}%
-                  </v-progress-circular>
-                  <h3>PostGreSQL</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                          {{ value.PostGreSQL }}%
+                        </v-progress-circular>
+                        <h3>PostGreSQL</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Relational Database that I use primarily.
+                      <br />
+                    </span>
+                  </v-tooltip>
                 </div>
               </v-row>
             </v-sheet>
@@ -60,22 +126,56 @@
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
-                    {{ value.AWS }}%
-                  </v-progress-circular>
-                  <h3>AWS</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                          {{ value.AWS }}%
+                        </v-progress-circular>
+                        <h3>AWS</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Learning more and more about AWS as it is
+                      <br />
+                      becoming implemented more and more among companies.
+                      <br />
+                      I plan on putting both of my projects on AWS Lambda
+                    </span>
+                  </v-tooltip>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
-                    {{ value.Git }}%
-                  </v-progress-circular>
-                  <h3>Git</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                          {{ value.Git }}%
+                        </v-progress-circular>
+                        <h3>Git</h3>
+                      </span>
+                    </template>
+                    <span>
+                      My primary method of version control.
+                      <br />
+                    </span>
+                  </v-tooltip>
                 </div>
                 <div class="skill">
-                  <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
-                    {{ value.Express }}%
-                  </v-progress-circular>
-                  <h3>Express</h3>
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                          {{ value.Express }}%
+                        </v-progress-circular>
+                        <h3>Express</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Have built a small unpublished project, but plan on
+                      <br />
+                      learning more as a substitute for Ruby on Rails
+                    </span>
+                  </v-tooltip>
                 </div>
               </v-row>
             </v-sheet>
@@ -125,6 +225,10 @@ export default {
 li {
   color: #a8b2d1;
 }
+p {
+  font-size: 13px;
+  /* width: ; */
+}
 
 ul {
   margin-block-start: 1em;
@@ -140,7 +244,7 @@ h2 {
   /* position: relative; */
   color: #e6f1ff;
 }
-p {
+h4 {
   color: #b2b2b4;
 }
 .container {
