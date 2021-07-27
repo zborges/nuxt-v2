@@ -129,7 +129,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
                           {{ value.AWS }}%
                         </v-progress-circular>
                         <h3>AWS</h3>
@@ -146,9 +146,10 @@
                 </div>
                 <div class="skill">
                   <v-tooltip bottom>
+                    k
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
                           {{ value.Git }}%
                         </v-progress-circular>
                         <h3>Git</h3>
@@ -164,7 +165,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
                           {{ value.Express }}%
                         </v-progress-circular>
                         <h3>Express</h3>
