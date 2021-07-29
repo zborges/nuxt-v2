@@ -146,7 +146,6 @@
                 </div>
                 <div class="skill">
                   <v-tooltip bottom>
-                    k
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
                         <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">

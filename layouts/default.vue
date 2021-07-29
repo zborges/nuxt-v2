@@ -4,6 +4,7 @@
       <Introduction />
       <PersonalInfo />
       <Technologies />
+      <Portfolio />
     </v-main>
   </v-app>
 </template>
