@@ -66,10 +66,10 @@ target:'static',
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    analyze: true,
-    // or
-    analyze: {
-      analyzerMode: 'static'
-    }
+    // analyze: true,
+    // // or
+    // analyze: {
+    //   analyzerMode: 'static'
+    // }
   }
 }
