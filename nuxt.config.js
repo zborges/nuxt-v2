@@ -66,9 +66,10 @@ target:'static',
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-    babel:  { babelrc: false,
-    cacheDirectory: undefined,
-    presets: ['@nuxt/babel-preset-app']
+    analyze: true,
+    // or
+    analyze: {
+      analyzerMode: 'static'
     }
   }
 }
