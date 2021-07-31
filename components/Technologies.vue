@@ -180,6 +180,47 @@
               </v-row>
             </v-sheet>
           </v-carousel-item>
+          <v-carousel-item>
+            <v-sheet class="sheet">
+              <v-row class="fill-height" align="center" justify="center">
+                <div class="skill">
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                          {{ value.React }}%
+                        </v-progress-circular>
+                        <h3>React</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Have built a small todo app using React.
+                      <br />
+                      Seems very similair to Vue, but still a lot to learn.
+                    </span>
+                  </v-tooltip>
+                </div>
+                <div class="skill">
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                          {{ value.Heroku }}%
+                        </v-progress-circular>
+                        <h3>Heroku</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Have some exprience with Heroku,
+                      <br />
+                      Cloud platform where the OurPack backend lives.
+                      <br />
+                    </span>
+                  </v-tooltip>
+                </div>
+              </v-row>
+            </v-sheet>
+          </v-carousel-item>
         </v-carousel>
       </div>
     </v-container>
@@ -205,6 +246,8 @@ export default {
         Heroku: 85,
         Vue: 90,
         Express: 65,
+        React: 60,
+        Heroku: 65,
       },
       colors: ["indigo", "warning", "pink darken-2", "red lighten-1", "deep-purple accent-4"],
       slides: ["First", "Second", "Third", "Fourth", "Fifth"],
