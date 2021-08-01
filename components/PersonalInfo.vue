@@ -10,10 +10,10 @@
           src="zack.jpeg"
           max-height="400"
           max-width="400"
-          class="rounded-lg d-flex justify-center float-md-right  my_photo"
+          class="rounded-lg d-flex justify-center float-md-right ml-md-6 my_photo"
         ></v-img>
-        <div class="testimonial">
-          <p class="text-center text-md-left mx-lg-auto">
+        <div class="testimonial pr-sm-8">
+          <p class="text-center text-md-left ">
             Hello! My name is Zack and I enjoy hiking, floating in the ocean, and having my
             <span style="color:#05d9e8">heart rate spike</span>
             as I watch thriller/ psychological horror movies.
@@ -60,8 +60,8 @@ p {
 .testimonial {
   width: 100%;
   /* float-right */
-  margin-right: auto;
-  padding-right: 80px;
+  /* margin-right: auto; */
+  /* padding-right: 80px; */
   font-weight: 400;
   font-size-adjust: inherit;
 }
