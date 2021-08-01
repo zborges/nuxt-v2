@@ -5,7 +5,7 @@
       <h2 class="pr-6">Technologies</h2>
       <h4 class="text-md-left">These are some of the technologies that I have been working with recently:</h4>
       <div class="technologies text-center">
-        <v-carousel interval="12000" cycle height="400" hide-delimiter-background show-arrows-on-hover>
+        <v-carousel interval="12000" cycle height="470" hide-delimiter-background show-arrows-on-hover>
           <v-carousel-item>
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
@@ -13,7 +13,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="-90" :size="140" :width="15" :value="value" color="#8892b0">
+                        <v-progress-circular :rotate="-90" :size="120" :width="15" :value="value" color="#8892b0">
                           {{ value.JavaScript }}%
                         </v-progress-circular>
                         <h3>JavaScript</h3>
@@ -28,7 +28,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="90" :size="140" :width="15" :value="value" color="#ccd6f6">
+                        <v-progress-circular :rotate="90" :size="120" :width="15" :value="value" color="#ccd6f6">
                           {{ value.HTML5 }}%
                         </v-progress-circular>
                         <h3>HTML5</h3>
@@ -46,7 +46,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#64ffda">
                           {{ value.RubyOnRails }}%
                         </v-progress-circular>
                         <h3>Ruby (on Rails)</h3>
@@ -69,7 +69,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda  ">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#64ffda  ">
                           {{ value.Vue }}%
                         </v-progress-circular>
                         <h3>Vue</h3>
@@ -88,7 +88,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#ccd6f6">
                           {{ value.CSS3 }}%
                         </v-progress-circular>
                         <h3>CSS3</h3>
@@ -106,7 +106,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#8892b0">
                           {{ value.PostGreSQL }}%
                         </v-progress-circular>
                         <h3>PostGreSQL</h3>
@@ -129,7 +129,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#ccd6f6">
                           {{ value.AWS }}%
                         </v-progress-circular>
                         <h3>AWS</h3>
@@ -148,7 +148,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#64ffda">
                           {{ value.Git }}%
                         </v-progress-circular>
                         <h3>Git</h3>
@@ -164,7 +164,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#8892b0">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#8892b0">
                           {{ value.Express }}%
                         </v-progress-circular>
                         <h3>Express</h3>
@@ -187,7 +187,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#ccd6f6">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#ccd6f6">
                           {{ value.React }}%
                         </v-progress-circular>
                         <h3>React</h3>
@@ -204,7 +204,7 @@
                   <v-tooltip bottom>
                     <template v-slot:activator="{ on, attrs }">
                       <span v-bind="attrs" v-on="on">
-                        <v-progress-circular :rotate="180" :size="140" :width="15" :value="value" color="#64ffda">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#64ffda">
                           {{ value.Heroku }}%
                         </v-progress-circular>
                         <h3>Heroku</h3>
