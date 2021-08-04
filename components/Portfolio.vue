@@ -3,11 +3,11 @@
     <v-container class="portfolio">
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
-      <div class="projects d-flex">
+      <div class="projects d-flex justify-center flex-column">
         <div class="single-project">
           <br />
           <h3 class="project-title">OurPack</h3>
-          <v-card :elevation="6" color="#e6f1ff" class=" d-flex flex-wrap rounded-xl " outlined shaped tile>
+          <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl " outlined shaped tile>
             <v-card-title>
               Ruby on Rails, Vue.js,
               <br />
@@ -15,8 +15,41 @@
             </v-card-title>
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
-              A Web Application that allows backpackers and hikers to log all of the gear into categories, to allow for
-              an easier planning process.
+              An instant messaging web application. Users are able to log in, add friends and send messages in real
+              time. This project is in its final stages. The Vue app will be built with AWS S3, while the Rails app will
+              be deployed using an EC2 Instance.
+            </v-card-text>
+          </v-card>
+        </div>
+        <div class="single-project">
+          <br />
+          <h3 class="project-title">Corkboard</h3>
+          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+            <v-card-title>
+              Ruby on Rails, Vue.js,
+              <br />
+              PostGreSQL
+            </v-card-title>
+            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+            <v-card-text>
+              A Web Application that allows backpackers and hikers to log all of the gear into categories,
+              <br />
+              to allow for an easier planning process.
+            </v-card-text>
+          </v-card>
+        </div>
+        <div class="single-project">
+          <br />
+          <h3 class="project-title">Framework Watcher</h3>
+          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+            <v-card-title>
+              Vanilla.JS HTML
+            </v-card-title>
+            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+            <v-card-text>
+              A simple display of the popularity of the most popular JavaScript frameworks.
+              <br />
+              Data is being collected from the Github API.
             </v-card-text>
           </v-card>
         </div>
@@ -58,10 +91,11 @@ h3 {
   height: 100%;
   outline: thin;
   outline-color: whitesmoke;
-  padding: 0 0 0 40px;
+  padding: 0 0 0 10px;
+  max-width: 60%;
 }
 .projects {
-  width: 60%;
+  width: 100%;
   /* justify-items: left; */
   color: #ccd6f6;
 }

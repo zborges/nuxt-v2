@@ -5,7 +5,7 @@
       <h2 class="pr-6">Technologies</h2>
       <h4 class="text-md-left">These are some of the technologies that I have been working with recently:</h4>
       <div class="technologies text-center">
-        <v-carousel interval="12000" cycle height="470" hide-delimiter-background show-arrows-on-hover>
+        <v-carousel interval="12000" cycle height="525" hide-delimiter-background show-arrows-on-hover>
           <v-carousel-item>
             <v-sheet class="sheet">
               <v-row class="fill-height" align="center" justify="center">
