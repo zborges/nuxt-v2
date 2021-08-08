@@ -72,7 +72,7 @@
                         <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#64ffda  ">
                           {{ value.Vue }}%
                         </v-progress-circular>
-                        <h3>Vue</h3>
+                        <h3>Vue.js</h3>
                       </span>
                     </template>
                     <span>
