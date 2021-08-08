@@ -19,6 +19,10 @@
               <br />
               to allow for an easier planning process.
             </v-card-text>
+            <v-card-actions class="icons">
+              <!-- <a href=""></a> -->
+              <v-icon>fab fa-github</v-icon>
+            </v-card-actions>
           </v-card>
         </div>
         <div class="single-project">
@@ -55,19 +59,25 @@
               <br />
               Data is being collected from the Github API.
             </v-card-text>
+            <v-card-actions class="icons">
+              <v-icon>fab fa-github</v-icon>
+            </v-card-actions>
           </v-card>
         </div>
         <!-- <v-img src="OurPack.png" height="200" width="150"></v-img> -->
         <div class="single-project">
           <br />
           <h3 class="project-title">Framework Watcher</h3>
-          <v-card :elevation="6" color="#e6f1ff" class=" d-flex flex-wrap rounded-xl project-card" outlined shaped tile>
+          <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
             <v-card-title>
               VanillaJS, HTML
             </v-card-title>
             <v-card-text>
               A simple display of popular JavaScript frameworks. Data is being collected from the GitHub API.
             </v-card-text>
+            <v-card-actions class="icons">
+              <v-icon>fab fa-github</v-icon>
+            </v-card-actions>
           </v-card>
         </div>
       </div>
