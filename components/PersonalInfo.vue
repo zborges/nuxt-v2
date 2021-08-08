@@ -20,13 +20,16 @@
             <br />
             <br />
             I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
-            developer. I have a passion in learning, and while I was in University, I was especially intersted in
+            developer after falling in love with the endless possibilities of improvement.
+            <br />
+            <br />
+            My passion lies in learning, and while I was in University, I was especially intersted in
             <span style="color:#05d9e8">Human Development</span>
             and learning about adults and children with special needs.
             <br />
             <br />
-            Currently, I am painting houses for a living, and building projects on the side until I find the right fit
-            for me.
+            Currently, I am applying front-end changes to houses (housepainting) and building projects on the side until
+            I find a position as a developer.
           </p>
         </div>
       </div>

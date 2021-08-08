@@ -8,25 +8,25 @@
           <br />
           <a href="https://ourpack.netlify.app/">
             <h3 class="project-title">OurPack</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="rounded-xl project-card" outlined shaped tile>
+              <v-card-title>
+                Ruby on Rails, Vue.js,
+                <br />
+                PostGreSQL
+              </v-card-title>
+              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+              <v-card-text>
+                A Web Application that allows backpackers and hikers to log all of the gear into categories,
+                <br />
+                to allow for an easier planning process.
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/capstone_project">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
           </a>
-          <v-card :elevation="6" color="#e6f1ff" class="rounded-xl project-card" outlined shaped tile>
-            <v-card-title>
-              Ruby on Rails, Vue.js,
-              <br />
-              PostGreSQL
-            </v-card-title>
-            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-            <v-card-text>
-              A Web Application that allows backpackers and hikers to log all of the gear into categories,
-              <br />
-              to allow for an easier planning process.
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/capstone_project">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
         </div>
         <div class="single-project">
           <br />
@@ -41,9 +41,7 @@
             <v-card-text>
               An instant messaging web application. Users are able to log in, add friends and send messages in real
               time. The Vue app will be deployed with AWS S3, while the Rails app will be deployed using an EC2
-              Instance.
-              <br />
-              This project is in its final stages.
+              Instance. This project is in its final stages.
             </v-card-text>
             <v-card-actions class="icons">
               <a href="https://github.com/zackartborges/corkboard_frontend">
@@ -56,21 +54,24 @@
           <br />
           <a href="https://framework-watcher.netlify.app/">
             <h3 class="project-title">Framework Watcher</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+              <v-card-title>
+                Ruby on Rails, Vue.js
+              </v-card-title>
+              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+              <v-card-text>
+                A simple display of popular JavaScript frameworks. Data is being collected from the GitHub API and being
+                displayed using
+                <a href="https://www.chartjs.org/docs/latest/">Chart.js</a>
+                .
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/js_framework_watcher">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
           </a>
-          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
-            <v-card-title>
-              Ruby on Rails, Vue.js
-            </v-card-title>
-            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-            <v-card-text>
-              A simple display of popular JavaScript frameworks. Data is being collected from the GitHub API.
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/js_framework_watcher">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
         </div>
         <!-- <v-img src="OurPack.png" height="200" width="150"></v-img> -->
         <div class="single-project">
