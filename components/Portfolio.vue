@@ -3,7 +3,7 @@
     <v-container class="portfolio">
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
-      <div class="projects d-flex flex-wrap flex-column ">
+      <div class="projects d-flex flex-wrap justify-center ">
         <div class="single-project">
           <br />
           <h3 class="project-title">OurPack</h3>
@@ -15,9 +15,9 @@
             </v-card-title>
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
-              An instant messaging web application. Users are able to log in, add friends and send messages in real
-              time. This project is in its final stages. The Vue app will be built with AWS S3, while the Rails app will
-              be deployed using an EC2 Instance.
+              A Web Application that allows backpackers and hikers to log all of the gear into categories,
+              <br />
+              to allow for an easier planning process.
             </v-card-text>
           </v-card>
         </div>
@@ -32,9 +32,10 @@
             </v-card-title>
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
-              A Web Application that allows backpackers and hikers to log all of the gear into categories,
+              An instant messaging web application. Users are able to log in, add friends and send messages in real
               <br />
-              to allow for an easier planning process.
+              time. This project is in its final stages. The Vue app will be built with AWS S3, while the Rails app will
+              be deployed using an EC2 Instance.
             </v-card-text>
           </v-card>
         </div>
@@ -109,7 +110,7 @@ h3 {
   outline: thin;
   outline-color: whitesmoke;
   padding: 0 0 0 10px;
-  max-width: 60%;
+  width: 80%;
 }
 .projects {
   width: 100%;
