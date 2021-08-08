@@ -17,6 +17,7 @@
     "vuetify": "^2.5.5"
   },
   "devDependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@nuxtjs/vuetify": "^1.12.1"
   }
 }

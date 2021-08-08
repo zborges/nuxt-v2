@@ -37,6 +37,9 @@
               time. This project is in its final stages. The Vue app will be built with AWS S3, while the Rails app will
               be deployed using an EC2 Instance.
             </v-card-text>
+            <v-card-actions class="icons">
+              <v-icon>fab fa-github</v-icon>
+            </v-card-actions>
           </v-card>
         </div>
         <div class="single-project">
@@ -82,6 +85,12 @@ h2 {
 h3 {
   font-size: clamp(24px, 5vw, 40px);
   color: #e6f1ff;
+}
+.icons {
+  /* margin: 0 0 0 20px; */
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 35px 10px 0;
 }
 .divider {
   /* align: center; */
