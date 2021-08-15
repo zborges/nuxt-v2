@@ -76,25 +76,31 @@
         <!-- <v-img src="OurPack.png" height="200" width="150"></v-img> -->
         <div class="single-project">
           <br />
-          <h3 class="project-title">State Data Visualizer</h3>
-          <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
-            <v-card-title>
-              VanillaJS, HTML
-            </v-card-title>
-            <v-card-text>
-              Interactive map that displays data from a Rails API. Data was taken from a CSV file and migrated into a
-              PostGreSQL DB. The map was created using
-              <a href="datamaps.github.io">DataMaps</a>
-              .
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/rails_state_data">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
+          <a href="https://state-data.netlify.app/">
+            <h3 class="project-title">State Data Visualizer</h3>
+            <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
+              <v-card-title>
+                VanillaJS, HTML
+              </v-card-title>
+              <v-card-text>
+                Interactive map that displays data from a Rails API. Data was taken from a CSV file and migrated into a
+                PostGreSQL DB. The map was created using
+                <a href="datamaps.github.io">DataMaps</a>
+                .
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/rails_state_data">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
+          </a>
         </div>
       </div>
+      <br />
+      <br />
+      <br />
+      <!-- <v-divider class="divider"></v-divider> -->
     </v-container>
   </v-lazy>
 </template>
