@@ -100,7 +100,7 @@
       <br />
       <br />
       <br />
-      <!-- <v-divider class="divider"></v-divider> -->
+      <v-divider class="divider"></v-divider>
     </v-container>
   </v-lazy>
 </template>

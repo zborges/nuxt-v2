@@ -5,7 +5,7 @@
       <PersonalInfo />
       <Technologies />
       <Portfolio />
-      <!-- <Footer /> -->
+      <Footer />
     </v-main>
   </v-app>
 </template>
