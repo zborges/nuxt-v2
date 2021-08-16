@@ -16,7 +16,7 @@
         </v-btn>
       </div>
 
-      <div class="icons d-flex justify-center ">
+      <div class="icons d-flex justify-center mb-10">
         <a href="https://github.com/zackartborges">
           <v-icon class="icon">fab fa-github</v-icon>
         </a>
