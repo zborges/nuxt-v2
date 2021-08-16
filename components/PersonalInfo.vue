@@ -14,7 +14,7 @@
         ></v-img>
         <div class="testimonial pr-sm-8">
           <p class="text-center text-md-left ">
-            Hello! My name is Zack and I enjoy hiking, floating in the ocean, and having my
+            Hello! My name is Zack and I enjoy hiking, jiu-jitsu, floating in the ocean, and having my
             <span style="color:#05d9e8">heart rate spike</span>
             as I watch thriller/ psychological horror movies.
             <br />
