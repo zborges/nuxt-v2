@@ -5,6 +5,7 @@
       <h2 class="pr-6">Technologies</h2>
       <h4 class="text-md-left">These are some of the technologies that I have been working with recently:</h4>
       <p style="color:#64ffda; font-size:clamp(11px, 2vw, 17px)" class="d-none d-sm-flex">(hover!)</p>
+      <p style="color:#64ffda; font-size:clamp(11px, 1.5vw, 15px)" class="d-sm-none">(click me!)</p>
       <div class="technologies text-center">
         <v-carousel interval="12000" cycle height="525" hide-delimiter-background show-arrows-on-hover>
           <v-carousel-item>
