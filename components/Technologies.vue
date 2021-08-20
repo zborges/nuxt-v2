@@ -37,9 +37,9 @@
                       </span>
                     </template>
                     <span>
-                      The good ole skeleton of the interwebs.
+                      Very familiar and experienced in providing
                       <br />
-                      Very straightforward and maybe, easy?
+                      the skeleton of web pages etc.
                     </span>
                   </v-tooltip>
                 </div>
@@ -55,9 +55,10 @@
                       </span>
                     </template>
                     <span>
-                      A simple to use web app framework and another one of my favorites.
+                      The first language I learned. Will always
                       <br />
-                      I used RoR to create my first web application, OurPack.
+                      hold a special place in my heart.
+                      <br />
                     </span>
                   </v-tooltip>
                 </div>
@@ -142,7 +143,7 @@
                       <br />
                       becoming implemented more and more among companies.
                       <br />
-                      I plan on putting both of my projects on AWS Lambda
+                      I plan on putting both of my projects on AWS Lambda.
                     </span>
                   </v-tooltip>
                 </div>
@@ -175,7 +176,7 @@
                     <span>
                       Have built a small unpublished project, but plan on
                       <br />
-                      learning more as a substitute for Ruby on Rails
+                      learning more.
                     </span>
                   </v-tooltip>
                 </div>
@@ -213,10 +214,10 @@
                       </span>
                     </template>
                     <span>
-                      Have some exprience with Heroku,
+                      Have all of my projects on Heroku.
+
                       <br />
-                      Cloud platform where the OurPack backend lives.
-                      <br />
+                      Easy and enjoyable to manuever.
                     </span>
                   </v-tooltip>
                 </div>
