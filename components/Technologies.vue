@@ -143,7 +143,6 @@
                       <br />
                       becoming implemented more and more among companies.
                       <br />
-                      I plan on putting both of my projects on AWS Lambda.
                     </span>
                   </v-tooltip>
                 </div>
@@ -244,7 +243,7 @@ export default {
         HTML5: 100,
         CSS3: 95,
         PostGreSQL: 85,
-        AWS: 70,
+        AWS: 60,
         Git: 95,
         Heroku: 85,
         Vue: 90,
@@ -258,9 +257,9 @@ export default {
   },
   mounted() {
     // this.interval = setInterval(() => {
-    //   // if (this.value === 100) {
-    //   //   return (this.value = 0);
-    //   // }
+    //   if (this.value === 100) {
+    //     return (this.value = 0);
+    //   }
     //   this.value += 10;
     // }, 1000);
   },
