@@ -10,9 +10,11 @@
             <h3 class="project-title">OurPack</h3>
             <v-card :elevation="6" color="#e6f1ff" class="rounded-xl project-card" outlined shaped tile>
               <v-card-title>
-                Ruby on Rails, Vue.js,
+                Ruby on Rails, Vue.js, PostgreSQL,
                 <br />
-                PostGreSQL
+                Node.js, LocalStorage,
+                <br />
+                Bcrypt, Axios
               </v-card-title>
               <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
               <v-card-text>
@@ -33,9 +35,11 @@
           <h3 class="project-title">Corkboard</h3>
           <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
             <v-card-title>
-              Ruby on Rails, Vue.js,
+              Ruby on Rails, Vue.js, PostgreSQL,
               <br />
-              PostGreSQL
+              Node.js, Axios, ActionCable,
+              <br />
+              Heroku, Bcrypt
             </v-card-title>
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
@@ -56,7 +60,9 @@
             <h3 class="project-title">Framework Watcher</h3>
             <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
               <v-card-title>
-                Ruby on Rails, Vue.js
+                Ruby on Rails, Vue.js,
+                <br />
+                Chart.js
               </v-card-title>
               <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
               <v-card-text>
@@ -80,7 +86,9 @@
             <h3 class="project-title">State Data Visualizer</h3>
             <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
               <v-card-title>
-                VanillaJS, HTML
+                Vue.js, Ruby on Rails, PostgreSQL,
+                <br />
+                DataMaps
               </v-card-title>
               <v-card-text>
                 Interactive map that displays data from a Rails API. Data was taken from a CSV file and migrated into a
@@ -118,6 +126,9 @@ h2 {
 h3 {
   font-size: clamp(24px, 5vw, 40px);
   color: #e6f1ff;
+}
+v-card-title {
+  font-size: clamp(16px, 4vw, 30px);
 }
 .icons {
   /* margin: 0 0 0 20px; */
