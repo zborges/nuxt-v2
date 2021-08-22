@@ -231,9 +231,6 @@
 
 <script>
 export default {
-  // components: {
-  //   // SearchBar,
-  // },
   data: function() {
     return {
       interval: {},

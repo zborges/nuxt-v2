@@ -3,6 +3,18 @@
     <v-container class="portfolio">
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
+      <div class="d-flex justify-center">
+        <v-btn
+          elevation="4"
+          x-large
+          class="mb-8"
+          style="background-color:#8892b0; size:40px"
+          v-on:click="openPdf()"
+          target="_blank"
+        >
+          Resume
+        </v-btn>
+      </div>
       <div class="projects d-flex flex-wrap justify-center ">
         <div class="single-project">
           <br />
@@ -113,6 +125,20 @@
   </v-lazy>
 </template>
 
+<script>
+// import axios from "axios";
+export default {
+  data: function() {
+    return {};
+  },
+  created: function() {},
+  methods: {
+    openPdf: function() {
+      window.open("./Zack_Borges_Resume.pdf");
+    },
+  },
+};
+</script>
 <style scoped>
 a {
   text-decoration: none;
@@ -130,6 +156,7 @@ h3 {
 v-card-title {
   font-size: clamp(16px, 4vw, 30px);
 }
+
 .icons {
   /* margin: 0 0 0 20px; */
   display: flex;
