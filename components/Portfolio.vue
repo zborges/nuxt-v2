@@ -56,8 +56,7 @@
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
               An instant messaging web application. Users are able to log in, add friends and send messages in real
-              time. The Vue app will be deployed with AWS S3, while the Rails app will be deployed using an EC2
-              Instance. This project is in its final stages.
+              time. The application will be deployed onto Heroku. This project is in its final stages.
             </v-card-text>
             <v-card-actions class="icons">
               <a href="https://github.com/zackartborges/corkboard_frontend">
