@@ -116,6 +116,28 @@
             </v-card>
           </a>
         </div>
+        <div class="single-project">
+          <br />
+          <a href="https://phaser-game-99.netlify.app/">
+            <h3 class="project-title">JavaScript Game</h3>
+            <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
+              <v-card-title>
+                JavaScript, HTML
+              </v-card-title>
+              <v-card-text>
+                As part of a Hackathon, I created this game. At first, I felt a bit out of my element, but as I
+                proceeded in creating the game I had a lot of fun.
+                <br />
+                Have not yet made it completley accessible with mobile, but will be working on it!
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/phaser_game">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
+          </a>
+        </div>
       </div>
       <br />
       <br />
