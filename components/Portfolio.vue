@@ -30,7 +30,7 @@
               </v-card-title>
               <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
               <v-card-text>
-                A Web Application that allows backpackers and hikers to log all of the gear into categories,
+                A Web Application that allows backpackers and hikers to log all of the gear into categories
                 <br />
                 to allow for an easier planning process.
               </v-card-text>
