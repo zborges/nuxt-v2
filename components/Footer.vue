@@ -3,7 +3,7 @@
     <!-- <v-divider class="divider"></v-divider> -->
     <v-container class="footer" dark padless>
       <h2 class="pr-6 d-flex justify-center">Get In Touch</h2>
-      <div class="contact-info d-flex justify-center text-center pt-16">
+      <div class="contact-info d-flex justify-center text-center pt-7">
         <p>
           Whether you have a question or just want to say hello, I will get back to you!
           <br />
