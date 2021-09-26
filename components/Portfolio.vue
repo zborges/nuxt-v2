@@ -20,28 +20,31 @@
           <br />
           <a href="https://ourpack.netlify.app/">
             <h3 class="project-title">OurPack</h3>
-            <v-card :elevation="6" color="#e6f1ff" class="rounded-xl project-card" outlined shaped tile>
-              <v-card-title>
-                Ruby on Rails, Vue.js, PostgreSQL,
-                <br />
-                Node.js, LocalStorage,
-                <br />
-                Bcrypt, Axios
-              </v-card-title>
-              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-              <v-card-text>
-                A Web Application that allows backpackers and hikers to log all of the gear into categories
-                <br />
-                to allow for an easier planning process.
-              </v-card-text>
-              <v-card-actions class="icons">
-                <a href="https://github.com/zackartborges/capstone_project">
-                  <v-icon>fab fa-github</v-icon>
-                </a>
-              </v-card-actions>
-            </v-card>
+            <v-hover v-slot="{ wrapper }">
+              <v-card color="#e6f1ff" class="rounded-xl project-card">
+                <v-card-title>
+                  Ruby on Rails, Vue.js, PostgreSQL,
+                  <br />
+                  Node.js, LocalStorage,
+                  <br />
+                  Bcrypt, Axios
+                </v-card-title>
+                <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+                <v-card-text>
+                  A Web Application that allows backpackers and hikers to log all of the gear into categories
+                  <br />
+                  to allow for an easier planning process.
+                </v-card-text>
+                <v-card-actions class="icons">
+                  <a href="https://github.com/zackartborges/capstone_project">
+                    <v-icon>fab fa-github</v-icon>
+                  </a>
+                </v-card-actions>
+              </v-card>
+            </v-hover>
           </a>
         </div>
+
         <div class="single-project">
           <br />
           <h3 class="project-title">Corkboard</h3>
@@ -65,6 +68,7 @@
             </v-card-actions>
           </v-card>
         </div>
+
         <div class="single-project">
           <br />
           <a href="https://framework-watcher.netlify.app/">
@@ -90,7 +94,31 @@
             </v-card>
           </a>
         </div>
+
+        <div class="single-project">
+          <br />
+          <a href="https://meme-generator01.netlify.app/">
+            <h3 class="project-title">Meme Generator</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+              <v-card-title>
+                React, HTML, CSS
+              </v-card-title>
+              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+              <v-card-text>
+                A meme generator that displays a random meme after pressing a button. The user will be able to add text
+                that transfers over to the newly generated meme. .
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href=https://github.com/zackartborges/react-generator>
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
+          </a>
+        </div>
+
         <!-- <v-img src="OurPack.png" height="200" width="150"></v-img> -->
+
         <div class="single-project">
           <br />
           <a href="https://state-data.netlify.app/">
@@ -115,6 +143,7 @@
             </v-card>
           </a>
         </div>
+
         <div class="single-project">
           <br />
           <a href="https://phaser-game-99.netlify.app/">
