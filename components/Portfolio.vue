@@ -71,6 +71,27 @@
 
         <div class="single-project">
           <br />
+          <a href="https://todo-app99.netlify.app/">
+          <h3 class="project-title">To-do App</h3>
+          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+            <v-card-title>
+            React, HTML, CSS
+            </v-card-title>
+            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+            <v-card-text>
+             A simple to-do app demonstrating the core principles of React.
+            </v-card-text>
+            <v-card-actions class="icons">
+              <a href="https://github.com/zackartborges/todo-app">
+                <v-icon>fab fa-github</v-icon>
+              </a>
+            </v-card-actions>
+          </v-card>
+          </a>
+        </div>
+
+        <div class="single-project">
+          <br />
           <a href="https://framework-watcher.netlify.app/">
             <h3 class="project-title">Framework Watcher</h3>
             <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
