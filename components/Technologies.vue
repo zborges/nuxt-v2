@@ -198,7 +198,9 @@
                     <span>
                       Have built a small todo app using React.
                       <br />
-                      Seems very similair to Vue, but still a lot to learn.
+                      I enjoy the core principles that differentiate React from other JavaScript frameworks. 
+                      </br>
+                      Excited to learn more.
                     </span>
                   </v-tooltip>
                 </div>
