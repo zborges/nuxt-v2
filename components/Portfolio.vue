@@ -205,7 +205,7 @@ export default {
   created: function() {},
   methods: {
     openPdf: function() {
-      window.open("./Zack_Borges_Resume.pdf");
+      window.open("./Zack_Borges_Resume_.pdf");
     },
   },
 };
