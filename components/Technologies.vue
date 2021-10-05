@@ -38,7 +38,7 @@
                       </span>
                     </template>
                     <span>
-                      Have built a small todo app using React.
+                      Have built a couple small projects using React.
                       <br />
                       I enjoy the core principles that differentiate React from other JavaScript frameworks. 
                       </br>
@@ -86,6 +86,23 @@
                       The frontend for my first full stack web application was built using Vue.
                       <br />
                       Thoroughly enjoy learning more and more about the framework.
+                    </span>
+                  </v-tooltip>
+                </div>
+                <div class="skill">
+                  <v-tooltip bottom>
+                    <template v-slot:activator="{ on, attrs }">
+                      <span v-bind="attrs" v-on="on">
+                        <v-progress-circular :rotate="180" :size="120" :width="15" :value="value" color="#ccd6f6">
+                          {{ value.ReactNative }}%
+                        </v-progress-circular>
+                        <h3>React Native</h3>
+                      </span>
+                    </template>
+                    <span>
+                      Recently began learning. Great documentation,
+                      <br>
+                  really looking forward to diving deeper into React Native.
                     </span>
                   </v-tooltip>
                 </div>
@@ -250,6 +267,7 @@ export default {
         Express: 65,
         React: 70,
         Heroku: 65,
+        ReactNative: 60,
       },
       colors: ["indigo", "warning", "pink darken-2", "red lighten-1", "deep-purple accent-4"],
       slides: ["First", "Second", "Third", "Fourth", "Fifth"],
