@@ -265,7 +265,7 @@ export default {
         Heroku: 85,
         Vue: 90,
         Express: 65,
-        React: 70,
+        React: 75,
         Heroku: 65,
         ReactNative: 60,
       },

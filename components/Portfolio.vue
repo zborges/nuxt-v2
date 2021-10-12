@@ -69,26 +69,7 @@
           </v-card>
         </div>
 
-        <div class="single-project">
-          <br />
-          <a href="https://todo-app99.netlify.app/">
-          <h3 class="project-title">To-do App</h3>
-          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
-            <v-card-title>
-            React, HTML, CSS
-            </v-card-title>
-            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-            <v-card-text>
-             A simple to-do app demonstrating the core principles of React.
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/todo-app">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
-          </a>
-        </div>
+
 
         <div class="single-project">
           <br />
@@ -118,13 +99,32 @@
 
         <div class="single-project">
           <br />
+          <a href="https://maps-and-cars.netlify.app/">
+            <h3 class="project-title">Maps and Cars</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+              <v-card-title>
+                React, HTML, CSS
+              </v-card-title>
+              <v-card-text>
+                Created a web application displaying vehicles on a map displaying their current status.
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href=https://github.com/zackartborges/maps-and-cars>
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
+          </a>
+        </div>
+
+        <div class="single-project">
+          <br />
           <a href="https://meme-generator01.netlify.app/">
             <h3 class="project-title">Meme Generator</h3>
             <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
               <v-card-title>
                 React, HTML, CSS
               </v-card-title>
-              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
               <v-card-text>
                 A meme generator that displays a random meme after pressing a button. The user will be able to add text
                 that transfers over to the newly generated meme. .
@@ -138,7 +138,27 @@
           </a>
         </div>
 
-        <!-- <v-img src="OurPack.png" height="200" width="150"></v-img> -->
+        <div class="single-project">
+          <br />
+          <a href="https://todo-app99.netlify.app/">
+          <h3 class="project-title">To-do App</h3>
+          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+            <v-card-title>
+            React, HTML, CSS
+            </v-card-title>
+            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+            <v-card-text>
+             A simple to-do app demonstrating the core principles of React.
+            </v-card-text>
+            <v-card-actions class="icons">
+              <a href="https://github.com/zackartborges/todo-app">
+                <v-icon>fab fa-github</v-icon>
+              </a>
+            </v-card-actions>
+          </v-card>
+          </a>
+        </div>
+
 
         <div class="single-project">
           <br />
