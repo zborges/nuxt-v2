@@ -38,7 +38,7 @@
                       </span>
                     </template>
                     <span>
-                      Have built a couple small projects using React.
+                      Have built a few small projects using React.
                       <br />
                       I enjoy the core principles that differentiate React from other JavaScript frameworks. 
                       </br>
@@ -266,7 +266,6 @@ export default {
         Vue: 90,
         Express: 65,
         React: 75,
-        Heroku: 65,
         ReactNative: 60,
       },
       colors: ["indigo", "warning", "pink darken-2", "red lighten-1", "deep-purple accent-4"],
