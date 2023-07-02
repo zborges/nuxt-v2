@@ -4,12 +4,11 @@
           <h2 class="pr-6">
             Hello, my name is
           </h2>
-        </div>
+      </div>
         <h1 class="font-weight-400">Zack Borges</h1>
         <h3>I build websites and web applications.</h3>
-        <p>I'm a software engineer, currently living in Athens, Georgia.</p>
+        <p>I'm a software engineer, currently living in Denver, Colorado.</p>
         <p></p>
-      </div>
     </v-container>
 </template>
 

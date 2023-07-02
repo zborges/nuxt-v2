@@ -14,7 +14,7 @@
         ></v-img>
         <div class="testimonial pr-sm-8">
           <p class="text-center text-md-left ">
-            Hello! My name is Zack and I enjoy hiking, brazilian jiu-jitsu, floating in the ocean, and having my
+            Hello! My name is Zack and I enjoy hiking, rock climbing, and having my
             <span style="color:#05d9e8">heart rate spike</span>
             as I watch thriller/ psychological horror movies.
             <br />
@@ -23,13 +23,11 @@
             developer after falling in love with the endless possibilities of improvement.
             <br />
             <br />
-            My passion lies in learning, and while I was in University, I was especially intersted in
-            <span style="color:#05d9e8">Human Development</span>
-            and learning about adults and children with special needs.
+            At my last job, I was a full-stack developer for a consultancy that built Saas 
+            products primarily used in the health care industry. The tech stack used for the different applications was  <span style="color:#05d9e8">React, Ruby on Rails, and PostgreSQL</span>.
             <br />
             <br />
-            Currently, I am applying front-end changes to houses (housepainting) and building projects on the side until
-            I find a position as a developer.
+           I am currently looking for my next dev role, where I plan to continue to grow as a developer and learn new technologies.
           </p>
         </div>
       </div>
