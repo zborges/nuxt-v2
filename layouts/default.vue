@@ -3,7 +3,7 @@
     <v-main class="main">
       <Introduction />
       <PersonalInfo />
-      <Technologies />
+      <!-- <Technologies /> -->
       <Portfolio />
       <Footer />
     </v-main>
