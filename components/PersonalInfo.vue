@@ -23,11 +23,11 @@
             developer after falling in love with the endless possibilities of improvement.
             <br />
             <br />
-            At my last job, I was a full-stack developer for a consultancy that built Saas 
+            In my previus role, I was a full-stack developer for a consultancy that built Saas 
             products primarily used in the health care industry. The tech stack used for the different applications was  <span style="color:#05d9e8">React, Ruby on Rails, and PostgreSQL</span>.
             <br />
             <br />
-           I am currently looking for my next dev role, where I plan to continue to grow as a developer and learn new technologies.
+           I am currently looking for my next dev role, where I plan to continue to grow as a developer and work with a team to create efficient and scalable applications.
           </p>
         </div>
       </div>

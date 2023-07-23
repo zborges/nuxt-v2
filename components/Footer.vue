@@ -17,7 +17,7 @@
       </div>
 
       <div class="icons d-flex justify-center mb-10">
-        <a href="https://github.com/zackartborges">
+        <a href="https://github.com/zborges">
           <v-icon class="icon">fab fa-github</v-icon>
         </a>
         <a href="https://www.linkedin.com/in/zack-borges/">

@@ -4,18 +4,37 @@
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
       <div class="d-flex justify-center">
-        <v-btn
-          elevation="4"
-          x-large
-          class="mb-8"
-          style="background-color:#8892b0; size:40px"
-          v-on:click="openPdf()"
-          target="_blank"
-        >
+        <v-btn elevation="4" x-large class="mb-8" style="background-color:#8892b0; size:40px" v-on:click="openPdf()"
+          target="_blank">
           Resume
         </v-btn>
       </div>
       <div class="projects d-flex flex-wrap justify-center ">
+        <div class="single-project">
+          <br />
+          <h3 class="project-title">OurFlix</h3>
+          <v-hover v-slot="{ wrapper }">
+            <v-card color="#e6f1ff" class="rounded-xl project-card">
+              <v-card-title>
+                Express, React.js, Mongoose,
+                <br />
+                Redux, TailWindCSS,
+                <br />
+                Bcrypt
+              </v-card-title>
+              <v-card-text>
+                A Web Application that uses a MovieDB API to allow users to choose from a database of movies to add to
+                their profile.
+                The main objective was create an API using Express.js as well as utilizing React and Redux.
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zborges/ourflix-server">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
+          </v-hover>
+        </div>
         <div class="single-project">
           <br />
           <a href="https://ourpack.netlify.app/">
@@ -141,21 +160,21 @@
         <div class="single-project">
           <br />
           <a href="https://todo-app99.netlify.app/">
-          <h3 class="project-title">To-do App</h3>
-          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
-            <v-card-title>
-            React, HTML, CSS
-            </v-card-title>
-            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-            <v-card-text>
-             A simple to-do app demonstrating the core principles of React.
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/todo-app">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
+            <h3 class="project-title">To-do App</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+              <v-card-title>
+                React, HTML, CSS
+              </v-card-title>
+              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+              <v-card-text>
+                A simple to-do app demonstrating the core principles of React.
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/todo-app">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
           </a>
         </div>
 
@@ -219,12 +238,12 @@
 <script>
 // import axios from "axios";
 export default {
-  data: function() {
+  data: function () {
     return {};
   },
-  created: function() {},
+  created: function () { },
   methods: {
-    openPdf: function() {
+    openPdf: function () {
       window.open("./Zack_Borges_Resume_.pdf");
     },
   },
@@ -234,16 +253,19 @@ export default {
 a {
   text-decoration: none;
 }
+
 h2 {
   font-size: clamp(48px, 10vw, 80px);
   /* align-items: center; */
   /* position: relative; */
   color: #e6f1ff;
 }
+
 h3 {
   font-size: clamp(24px, 5vw, 40px);
   color: #e6f1ff;
 }
+
 v-card-title {
   font-size: clamp(16px, 4vw, 30px);
 }
@@ -254,6 +276,7 @@ v-card-title {
   justify-content: flex-end;
   padding: 0 35px 10px 0;
 }
+
 .divider {
   /* align: center; */
   /* vertical-align: start, center, end, baseline, stretch; */
@@ -261,13 +284,16 @@ v-card-title {
   /* justify-content: center; */
   /* width: 50%; */
 }
+
 .project-title {
   font-size: clamp(24px, 6vw, 45px);
   margin: 0 0 20px 0;
 }
+
 .project-card {
   margin: 0 0 0 0;
 }
+
 .v-card {
   height: 100%;
 }
@@ -283,6 +309,7 @@ v-card-title {
   padding: 0 0 0 10px;
   width: 80%;
 }
+
 .projects {
   width: 100%;
   /* justify-items: left; */
