@@ -1,20 +1,33 @@
+var vm = new Vue({
+  data: {
+    title``: "",
+    
+  },
 <template>
   <v-lazy>
     <v-container class="portfolio">
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
       <div class="d-flex justify-center">
-        <v-btn
-          elevation="4"
-          x-large
-          class="mb-8"
-          style="background-color:#8892b0; size:40px"
-          v-on:click="openPdf()"
-          target="_blank"
-        >
+        <v-btn elevation="4" x-large class="mb-8" style="background-color:#8892b0; size:40px" v-on:click="openPdf()"
+          target="_blank">
           Resume
         </v-btn>
       </div>
+
+      <!-- <ProjectComponent
+       title="TESTING" 
+       techUsed="Ruby on Rails, Vue.js, PostgreSQL" 
+       projectDescription="A Web Application that allows backpackers and hikers to log all of the gear into categories to allow for an easier planning process."
+       projectLink="https://ourpack.netlify.app/"
+       /> -->
+
+
+      <ProjectComponent title="heYYYYYYY" />
+
+
+
+
       <div class="projects d-flex flex-wrap justify-center ">
         <div class="single-project">
           <br />
@@ -109,7 +122,7 @@
                 Created a web application displaying vehicles on a map displaying their current status.
               </v-card-text>
               <v-card-actions class="icons">
-                <a href=https://github.com/zackartborges/maps-and-cars>
+                <a href="https://github.com/zackartborges/maps-and-cars">
                   <v-icon>fab fa-github</v-icon>
                 </a>
               </v-card-actions>
@@ -141,21 +154,21 @@
         <div class="single-project">
           <br />
           <a href="https://todo-app99.netlify.app/">
-          <h3 class="project-title">To-do App</h3>
-          <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
-            <v-card-title>
-            React, HTML, CSS
-            </v-card-title>
-            <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
-            <v-card-text>
-             A simple to-do app demonstrating the core principles of React.
-            </v-card-text>
-            <v-card-actions class="icons">
-              <a href="https://github.com/zackartborges/todo-app">
-                <v-icon>fab fa-github</v-icon>
-              </a>
-            </v-card-actions>
-          </v-card>
+            <h3 class="project-title">To-do App</h3>
+            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
+              <v-card-title>
+                React, HTML, CSS
+              </v-card-title>
+              <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
+              <v-card-text>
+                A simple to-do app demonstrating the core principles of React.
+              </v-card-text>
+              <v-card-actions class="icons">
+                <a href="https://github.com/zackartborges/todo-app">
+                  <v-icon>fab fa-github</v-icon>
+                </a>
+              </v-card-actions>
+            </v-card>
           </a>
         </div>
 
@@ -215,35 +228,42 @@
     </v-container>
   </v-lazy>
 </template>
+})
 
 <script>
 // import axios from "axios";
+// import {}
 export default {
-  data: function() {
+  data: function () {
     return {};
   },
-  created: function() {},
+  created: function () { },
   methods: {
-    openPdf: function() {
+    openPdf: function () {
       window.open("./Zack_Borges_Resume_.pdf");
     },
   },
 };
 </script>
+
+
 <style scoped>
 a {
   text-decoration: none;
 }
+
 h2 {
   font-size: clamp(48px, 10vw, 80px);
   /* align-items: center; */
   /* position: relative; */
   color: #e6f1ff;
 }
+
 h3 {
   font-size: clamp(24px, 5vw, 40px);
   color: #e6f1ff;
 }
+
 v-card-title {
   font-size: clamp(16px, 4vw, 30px);
 }
@@ -254,6 +274,7 @@ v-card-title {
   justify-content: flex-end;
   padding: 0 35px 10px 0;
 }
+
 .divider {
   /* align: center; */
   /* vertical-align: start, center, end, baseline, stretch; */
@@ -261,13 +282,16 @@ v-card-title {
   /* justify-content: center; */
   /* width: 50%; */
 }
+
 .project-title {
   font-size: clamp(24px, 6vw, 45px);
   margin: 0 0 20px 0;
 }
+
 .project-card {
   margin: 0 0 0 0;
 }
+
 .v-card {
   height: 100%;
 }
@@ -283,6 +307,7 @@ v-card-title {
   padding: 0 0 0 10px;
   width: 80%;
 }
+
 .projects {
   width: 100%;
   /* justify-items: left; */
