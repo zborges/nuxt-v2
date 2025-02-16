@@ -1,5 +1,6 @@
 <template>
-    <v-container class="introduction mt-16" align="center mx-width-300">
+    <v-container class="introduction mt-16 d-flex flex-column align-center justify-center">
+    <!-- <v-container class="introduction mt-16" align="center mx-width-300"> -->
       <div class="text-center text-sm-right mt-7">
           <h2 class="pr-6">
             Hello, my name is
@@ -14,7 +15,7 @@
 
 <style scoped>
 h2 {
-  margin: 0 10;
+  margin: 0 10px;
   color: #05d9e8;
   font-family: "Roboto Mono", monospace !important;
   font-weight: 400;
