@@ -1,18 +1,40 @@
-name: GitHub Actions
-run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
-on: [push]
+name: Nuxt.js Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  #Trigger on pull requests to the main branch
+
 jobs:
-  Explore-GitHub-Actions:
-    runs-on: ubuntu-latest
+  build:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+
     steps:
-      - run: echo "🎉 The job was automatically triggered by a ${{ github.event_name }} event."
-      - run: echo "🐧 This job is now running on a ${{ runner.os }} server hosted by GitHub!"
-      - run: echo "🔎 The name of your branch is ${{ github.ref }} and your repository is ${{ github.repository }}."
-      - name: Check out repository code
-        uses: actions/checkout@v4
-      - run: echo "💡 The ${{ github.repository }} repository has been cloned to the runner."
-      - run: echo "🖥️ The workflow is now ready to test your code on the runner."
-      - name: List files in the repository
-        run: |
-          ls ${{ github.workspace }}
-      - run: echo "🍏 This job's status is ${{ job.status }}."g
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22.14.0 # Use the Node.js version your app requires
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build the Nuxt.js app
+      - name: Build Nuxt.js app
+        run: npm run build
+
+      # Optionally, run tests if you have them
+      # - name: Run tests
+      #   run: npm run test
+
+      # Optionally, deploy the app (e.g., to a hosting service like Vercel, Netlify, or GitHub Pages)
+      # - name: Deploy Nuxt.js app
+      #   run: npm run deploy  # Replace with your deployment command
