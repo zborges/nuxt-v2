@@ -1,0 +1,40 @@
+name: Nuxt.js Build and Deploy
+
+on:
+  push:
+    branches:
+      - main  # Trigger the workflow on push to the main branch
+  pull_request:
+    branches:
+      - main  #Trigger on pull requests to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+
+    steps:
+      # Check out the repository
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Set up Node.js
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 22.14.0 # Use the Node.js version your app requires
+
+      # Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # Build the Nuxt.js app
+      - name: Build Nuxt.js app
+        run: npm run build
+
+      # Optionally, run tests if you have them
+      # - name: Run tests
+      #   run: npm run test
+
+      # Optionally, deploy the app (e.g., to a hosting service like Vercel, Netlify, or GitHub Pages)
+      # - name: Deploy Nuxt.js app
+      #   run: npm run deploy  # Replace with your deployment command
