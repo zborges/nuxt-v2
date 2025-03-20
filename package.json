@@ -25,7 +25,7 @@
     "vue": "^2.7.16",
     "vue-typed-js": "^0.1.2",
     "vue-typed-text": "^1.0.5",
-    "vuetify": "^2.5.5"
+    "vuetify": "^2.7.2"
   },
   "devDependencies": {
     "@babel/preset-typescript": "^7.26.0",
