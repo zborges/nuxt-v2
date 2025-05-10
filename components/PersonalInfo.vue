@@ -19,19 +19,12 @@
             as I watch thriller/ psychological horror movies.
             <br />
             <br />
-            I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
-            developer after falling in love with the endless possibilities of improvement.
-            <br />
-            <br />
-            In my previous role, I was a full-stack developer for a consultancy that built Saas 
-            products primarily used in the health care industry. The tech stack used for the different applications was  <span style="color:#05d9e8">React, Ruby on Rails, and PostgreSQL</span>.
-            <br />
-            <br />
-           I am currently looking for my next dev role, where I plan to continue to grow as a developer and work with a team to create efficient and scalable applications.
+            I am currently working with Booz Allen Hamilton solving technical problems to improve the lives
+            of Veterans by helping them receive the care they deserve. The tech stack we use primarily is
+        <span style="color:#05d9e8">React, Ruby on Rails, PostgreSQL and AWS.</span>
           </p>
         </div>
       </div>
-      <br />
     </v-container>
   </v-lazy>
 </template>

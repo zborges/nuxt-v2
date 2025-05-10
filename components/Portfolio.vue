@@ -4,7 +4,7 @@
       <v-divider class="divider"></v-divider>
       <h2 class="pr-6 pb-14">Portfolio</h2>
       <div class="d-flex justify-center">
-        <v-btn elevation="4" x-large class="mb-8" style="background-color:#8892b0; size:40px" v-on:click="openPdf()"
+        <v-btn elevation="4" x-large class="mb-8" style="background-color:#8892b0; size:60px" v-on:click="openPdf()"
           target="_blank">
           Resume
         </v-btn>
@@ -25,7 +25,7 @@
               <v-card-text>
                 A Web Application that uses a MovieDB API to allow users to choose from a database of movies to add to
                 their profile.
-                The main objective was create an API using Express.js as well as utilizing React and Redux.
+                The main objective was to create an API using Express.js utilizing React and Redux for the client.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href="https://github.com/zborges/ourflix-server">
