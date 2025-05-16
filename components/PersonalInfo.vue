@@ -19,19 +19,19 @@
             as I watch thriller/ psychological horror movies.
             <br />
             <br />
-            I started coding about a year after graduating with a Psychology degree, and decided to pursue a career as a
-            developer after falling in love with the endless possibilities of improvement.
+            In my recent roles as a Software Engineer, I’ve developed and maintained full-stack applications
+            using React and Ruby on Rails, contributing new features, critical bug fixes, full coverage testing, and load testing. I’m driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
             <br />
             <br />
-            In my previous role, I was a full-stack developer for a consultancy that built Saas 
-            products primarily used in the health care industry. The tech stack used for the different applications was  <span style="color:#05d9e8">React, Ruby on Rails, and PostgreSQL</span>.
+            My primary tech stack is <span style="color:#05d9e8">React, Ruby on Rails, PostgreSQL, Node.js and AWS.</span> Check out my resume below for more information on my skills
+            and experience.
             <br />
             <br />
-           I am currently looking for my next dev role, where I plan to continue to grow as a developer and work with a team to create efficient and scalable applications.
+            I am currently seeking my new role and hope to join a company that fosters intellectual rigor,
+            embraces forward-thinking solutions, and drives meaningful change through its work.
           </p>
         </div>
       </div>
-      <br />
     </v-container>
   </v-lazy>
 </template>
