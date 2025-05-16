@@ -19,16 +19,17 @@
             as I watch thriller/ psychological horror movies.
             <br />
             <br />
-            In my recent roles as a Software Engineer, I’ve developed and maintained full-stack applications
-            using React and Ruby on Rails, contributing new features, critical bug fixes, full coverage testing, and load testing. I’m driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
+            In my professional experience as a Software Engineer, I’ve developed and maintained full-stack applications
+            using <span style="color:#05d9e8">React, Ruby on Rails and Python</span>. Contributing new features, critical bug fixes, and full coverage testing
+            including load testing. I am driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
             <br />
             <br />
-            My primary tech stack is <span style="color:#05d9e8">React, Ruby on Rails, PostgreSQL, Node.js and AWS.</span> Check out my resume below for more information on my skills
+            Check out my <span style="color:#05d9e8">resume</span> below for more information on my skills
             and experience.
             <br />
             <br />
-            I am currently seeking my new role and hope to join a company that fosters intellectual rigor,
-            embraces forward-thinking solutions, and drives meaningful change through its work.
+            I am currently seeking a new role and hope to join a company that fosters intellectual rigor,
+            embraces forward-thinking solutions, and drives <span style="color:#05d9e8">meaningful change</span> through its work.
           </p>
         </div>
       </div>

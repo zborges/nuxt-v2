@@ -25,7 +25,7 @@
               <v-card-text>
                 A Web Application that uses a MovieDB API to allow users to choose from a database of movies to add to
                 their profile.
-                The main objective was to create an API using Express.js utilizing React and Redux for the client.
+                The main objective was to learn about Express.js by creating an API using Express.js while utilizing React and Redux.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href="https://github.com/zborges/ourflix-server">
@@ -50,9 +50,9 @@
                 </v-card-title>
                 <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
                 <v-card-text>
-                  A Web Application that allows backpackers and hikers to log all of the gear into categories
+                  A Web Application that allows backpackers and hikers to log all of their gear into categories
                   <br />
-                  to allow for an easier planning process.
+                  to allow for an easier planning process when it comes to weight of their pack.
                 </v-card-text>
                 <v-card-actions class="icons">
                   <a href="https://github.com/zackartborges/capstone_project">
@@ -77,7 +77,7 @@
             </v-card-title>
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
-              An instant messaging web application. Users are able to log in, add friends and send messages in real
+              An instant messaging web application where users are able to log in, add friends and send messages in real
               time.
             </v-card-text>
             <v-card-actions class="icons">
@@ -117,26 +117,6 @@
 
         <div class="single-project">
           <br />
-          <a href="https://maps-and-cars.netlify.app/">
-            <h3 class="project-title">Maps and Cars</h3>
-            <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
-              <v-card-title>
-                React, HTML, CSS
-              </v-card-title>
-              <v-card-text>
-                Created a web application displaying vehicles on a map displaying their current status.
-              </v-card-text>
-              <v-card-actions class="icons">
-                <a href=https://github.com/zackartborges/maps-and-cars>
-                  <v-icon>fab fa-github</v-icon>
-                </a>
-              </v-card-actions>
-            </v-card>
-          </a>
-        </div>
-
-        <div class="single-project">
-          <br />
           <a href="https://meme-generator01.netlify.app/">
             <h3 class="project-title">Meme Generator</h3>
             <v-card :elevation="6" color="#e6f1ff" class="  rounded-xl " outlined shaped tile>
@@ -144,35 +124,11 @@
                 React, HTML, CSS
               </v-card-title>
               <v-card-text>
-                A meme generator that displays a random meme after pressing a button. The user will be able to add text
+                A simple meme generator that displays a random meme after pressing a button. The user can also add text
                 that transfers over to the newly generated meme.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href=https://github.com/zackartborges/react-generator>
-                  <v-icon>fab fa-github</v-icon>
-                </a>
-              </v-card-actions>
-            </v-card>
-          </a>
-        </div>
-
-        <div class="single-project">
-          <br />
-          <a href="https://state-data.netlify.app/">
-            <h3 class="project-title">State Data Visualizer</h3>
-            <v-card :elevation="6" color="#e6f1ff" class=" rounded-xl project-card" outlined shaped tile>
-              <v-card-title>
-                Vue.js, Ruby on Rails, PostgreSQL,
-                <br />
-                DataMaps
-              </v-card-title>
-              <v-card-text>
-                Interactive map that displays data from a Rails API. Data was taken from a CSV file and migrated into a
-                PostGreSQL DB. The map was created using
-                <a href="datamaps.github.io">DataMaps</a>.
-              </v-card-text>
-              <v-card-actions class="icons">
-                <a href="https://github.com/zackartborges/rails_state_data">
                   <v-icon>fab fa-github</v-icon>
                 </a>
               </v-card-actions>
@@ -189,10 +145,7 @@
                 JavaScript, HTML
               </v-card-title>
               <v-card-text>
-                As part of a Hackathon, I created this game. At first, I felt a bit out of my element, but as I
-                proceeded in creating the game I had a lot of fun.
-                <br />
-                Have not yet made it completley accessible with mobile, but will be working on it!
+                As part of a Hackathon, I created this fun and simple game. Check it out!
               </v-card-text>
               <v-card-actions class="icons">
                 <a href="https://github.com/zackartborges/phaser_game">
