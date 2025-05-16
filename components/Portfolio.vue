@@ -78,7 +78,7 @@
             <!-- <v-card-subtitle>Ruby on Rails, Vue.js, PostGreSQL</v-card-subtitle> -->
             <v-card-text>
               An instant messaging web application. Users are able to log in, add friends and send messages in real
-              time. The application will be deployed onto Heroku. This project is in its final stages.
+              time.
             </v-card-text>
             <v-card-actions class="icons">
               <a href="https://github.com/zackartborges/corkboard_frontend">
@@ -104,8 +104,7 @@
               <v-card-text>
                 A simple display of popular JavaScript frameworks. Data is being collected from the GitHub API and being
                 displayed using
-                <a href="https://www.chartjs.org/docs/latest/">Chart.js</a>
-                .
+                <a href="https://www.chartjs.org/docs/latest/">Chart.js</a>.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href="https://github.com/zackartborges/js_framework_watcher">
@@ -146,7 +145,7 @@
               </v-card-title>
               <v-card-text>
                 A meme generator that displays a random meme after pressing a button. The user will be able to add text
-                that transfers over to the newly generated meme. .
+                that transfers over to the newly generated meme.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href=https://github.com/zackartborges/react-generator>
@@ -170,8 +169,7 @@
               <v-card-text>
                 Interactive map that displays data from a Rails API. Data was taken from a CSV file and migrated into a
                 PostGreSQL DB. The map was created using
-                <a href="datamaps.github.io">DataMaps</a>
-                .
+                <a href="datamaps.github.io">DataMaps</a>.
               </v-card-text>
               <v-card-actions class="icons">
                 <a href="https://github.com/zackartborges/rails_state_data">

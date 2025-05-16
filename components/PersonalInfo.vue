@@ -19,9 +19,13 @@
             as I watch thriller/ psychological horror movies.
             <br />
             <br />
-            I am currently working with Booz Allen Hamilton solving technical problems to improve the lives
-            of Veterans by helping them receive the care they deserve. The tech stack we use primarily is
-        <span style="color:#05d9e8">React, Ruby on Rails, PostgreSQL and AWS.</span>
+            In my recent roles as a Software Engineer, I've built new features and resolved critical
+            production bugs across full-stack applications using React and Ruby on Rails. I enjoy tackling
+            complex problems and turning them into practical, reliable solutions that deliver real value.
+            <br />
+            <br />
+            My primary tech stack is <span style="color:#05d9e8">React, Ruby on Rails, PostgreSQL and AWS.</span>,
+            
           </p>
         </div>
       </div>
