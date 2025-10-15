@@ -7,7 +7,7 @@
       </div>
         <h1 class="font-weight-400">Zack Borges</h1>
         <h3>I build websites and web applications.</h3>
-        <p>I'm a Software Engineer currently living in Denver, Colorado.</p>
+        <p>I'm a Software Engineer currently living in Montgomery, Alabama.</p>
         <p></p>
     </v-container>
 </template>
