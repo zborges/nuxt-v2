@@ -3,14 +3,14 @@ name: Nuxt.js Build and Deploy
 on:
   push:
     branches:
-      - main  # Trigger the workflow on push to the main branch
+      - main # Trigger the workflow on push to the main branch
   pull_request:
     branches:
-      - main  #Trigger on pull requests to the main branch
+      - main #Trigger on pull requests to the main branch
 
 jobs:
   build:
-    runs-on: ubuntu-latest  # Use the latest Ubuntu environment
+    runs-on: ubuntu-latest # Use the latest Ubuntu environment
 
     steps:
       # Check out the repository
@@ -27,10 +27,6 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Build the Nuxt.js app
+      # Build the Nuxt.js app & Generate static files
       - name: Build Nuxt.js app
         run: npm run build
-      
-      # Generate static files (if applicable)
-      - name: Generate static files
-        run: npm run generate
