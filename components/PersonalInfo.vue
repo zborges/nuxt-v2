@@ -20,8 +20,8 @@
             <br />
             <br />
             In my professional experience as a Software Engineer, I’ve developed and maintained full-stack applications
-            using <span style="color:#05d9e8">React, Ruby on Rails and Python</span>. Contributing new features, critical bug fixes, and full coverage testing
-            including load testing. I am driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
+            using <span style="color:#05d9e8"> Ruby on Rails, React, and Python</span>. Contributing new features, critical bug fixes, and full coverage testing.
+            I am driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
             <br />
             <br />
             Check out my <span style="color:#05d9e8">resume</span> below for more information on my skills
