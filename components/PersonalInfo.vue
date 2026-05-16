@@ -13,23 +13,37 @@
           class="rounded-lg d-flex justify-center float-md-right ml-md-6 my_photo"
         ></v-img>
         <div class="testimonial pr-sm-8">
-          <p class="text-center text-md-left ">
-            Hello! My name is Zack and I enjoy hiking, rock climbing, and having my
-            <span style="color:#05d9e8">heart rate spike</span>
-            as I watch thriller/ psychological horror movies.
-            <br />
-            <br />
-            In my professional experience as a Software Engineer, I’ve developed and maintained full-stack applications
-            using <span style="color:#05d9e8"> Ruby on Rails, React, and Python</span>. Contributing new features, critical bug fixes, and full coverage testing.
-            I am driven by solving complex problems and transforming them into scalable, reliable solutions that create tangible value.
-            <br />
-            <br />
-            Check out my <span style="color:#05d9e8">resume</span> below for more information on my skills
-            and experience.
-            <br />
-            <br />
-            I am currently seeking a new role and hope to join a company that fosters intellectual rigor,
-            embraces forward-thinking solutions, and drives <span style="color:#05d9e8">meaningful change</span> through its work.
+          <p class="text-center text-md-left">
+            Hello! My name is Zack.
+            I enjoy <span style="color:#05d9e8">hiking</span>,
+            <span style="color:#05d9e8">rock climbing</span>, and
+            having my heart rate spike as I watch thriller and
+            psychological horror movies.
+          </p>
+          <p class="text-center text-md-left">
+            As a full-stack Software Engineer, I have designed and
+            built production applications across the stack —
+            most recently developing geospatial features for
+            <a
+              href="https://power.larc.nasa.gov"
+              target="_blank"
+              rel="noopener noreferrer"
+              style="color:#ff6b6b"
+            >NASA's POWER Project</a>
+            that process real-time satellite data to tackle
+            critical environmental challenges.
+            I specialize in
+            <span style="color:#05d9e8">Ruby on Rails</span>,
+            <span style="color:#05d9e8">React</span>, and
+            <span style="color:#05d9e8">PostgreSQL</span>
+            and I am driven by turning complex, large-scale
+            problems into clean, scalable solutions.
+          </p>
+          <p class="text-center text-md-left">
+            I thrive on turning complex problems into scalable,
+            reliable solutions — and I'm looking to bring that
+            drive to a team that values intellectual curiosity,
+            bold thinking, and work that genuinely matters.
           </p>
         </div>
       </div>
@@ -39,11 +53,7 @@
 
 <style scoped>
 .divider {
-  /* align: center; */
-  /* vertical-align: start, center, end, baseline, stretch; */
   background-color: #ccd6f6;
-  /* justify-content: center; */
-  /* width: 50%; */
 }
 .container {
   align-content: center;
@@ -51,8 +61,6 @@
 
 h2 {
   font-size: clamp(48px, 10vw, 80px);
-  /* align-items: center; */
-  /* position: relative; */
   color: #e6f1ff;
 }
 
@@ -61,14 +69,18 @@ p {
 }
 .testimonial {
   width: 100%;
-  /* float-right */
-  /* margin-right: auto; */
-  /* padding-right: 80px; */
   font-weight: 400;
   font-size-adjust: inherit;
 }
 .my_photo {
-  /* float: right; */
   margin-bottom: 80px;
+}
+
+@media (max-width: 948px) {
+  .my_photo {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
 }
 </style>
